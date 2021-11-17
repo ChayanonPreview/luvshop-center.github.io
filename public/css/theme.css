@@ -2950,7 +2950,7 @@ textarea.form-control-lg {
 }
 
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
-  pointer-events: none;
+  pointer-events: painted;
   -webkit-filter: none;
   filter: none;
   opacity: 0.65;
@@ -4105,8 +4105,11 @@ fieldset:disabled .btn {
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 0.8rem 2rem;
+  padding:0m 0.8rem 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 1rem;
+  border-color: #BB8FCE ;
   border-radius: 0.625rem;
 }
 
